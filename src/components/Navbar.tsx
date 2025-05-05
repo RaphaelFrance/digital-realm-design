@@ -30,24 +30,24 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="text-2xl font-bold text-gradient">
-          DigitalRealm
+          WebExpert
         </a>
 
         {/* Desktop navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#services" className="text-foreground/80 hover:text-primary transition-colors">
-            Services
+          <a href="#avantages" className="text-foreground/80 hover:text-primary transition-colors">
+            Avantages
           </a>
-          <a href="#portfolio" className="text-foreground/80 hover:text-primary transition-colors">
-            Work
+          <a href="#projets" className="text-foreground/80 hover:text-primary transition-colors">
+            Projets
           </a>
-          <a href="#about" className="text-foreground/80 hover:text-primary transition-colors">
-            About
+          <a href="#tarifs" className="text-foreground/80 hover:text-primary transition-colors">
+            Tarifs
           </a>
           <a href="#contact" className="text-foreground/80 hover:text-primary transition-colors">
             Contact
           </a>
-          <Button>Get Started</Button>
+          <Button>Commencer</Button>
         </nav>
 
         {/* Mobile menu button */}
@@ -64,25 +64,25 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 w-full bg-background/95 backdrop-blur-lg shadow-lg py-4">
           <nav className="container flex flex-col space-y-4">
             <a 
-              href="#services" 
+              href="#avantages" 
               className="text-foreground/80 hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Services
+              Avantages
             </a>
             <a 
-              href="#portfolio" 
+              href="#projets" 
               className="text-foreground/80 hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Work
+              Projets
             </a>
             <a 
-              href="#about" 
+              href="#tarifs" 
               className="text-foreground/80 hover:text-primary transition-colors py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              About
+              Tarifs
             </a>
             <a 
               href="#contact" 
@@ -91,7 +91,7 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <Button className="w-full">Get Started</Button>
+            <Button className="w-full">Commencer</Button>
           </nav>
         </div>
       )}

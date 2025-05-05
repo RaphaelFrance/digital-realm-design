@@ -5,33 +5,33 @@ import { Code, Globe, Laptop, LayoutDashboard, Server, Settings } from 'lucide-r
 const servicesData = [
   {
     icon: Globe,
-    title: 'Website Development',
-    description: 'Custom, responsive websites tailored to your brand and business objectives.'
+    title: 'Développement de Site Web',
+    description: 'Sites web sur mesure et adaptés à votre marque et vos objectifs commerciaux.'
   },
   {
     icon: LayoutDashboard,
-    title: 'UI/UX Design',
-    description: 'Intuitive interfaces and engaging user experiences that convert visitors into customers.'
+    title: 'Design UI/UX',
+    description: 'Interfaces intuitives qui convertissent les visiteurs en clients.'
   },
   {
     icon: Code,
-    title: 'Web Applications',
-    description: 'Powerful, scalable web applications with robust functionality.'
+    title: 'Applications Web',
+    description: 'Applications web puissantes et évolutives avec des fonctionnalités robustes.'
   },
   {
     icon: Server,
-    title: 'API Integration',
-    description: 'Seamless integration with third-party services and APIs to extend functionality.'
+    title: 'Intégration API',
+    description: 'Intégration transparente avec des services tiers pour étendre les fonctionnalités.'
   },
   {
     icon: Settings,
     title: 'Maintenance & Support',
-    description: 'Ongoing support and maintenance to keep your digital presence running smoothly.'
+    description: 'Support continu pour maintenir votre présence numérique en parfait état.'
   },
   {
     icon: Laptop,
-    title: 'E-commerce Solutions',
-    description: 'Feature-rich online stores with secure payment processing and inventory management.'
+    title: 'Solutions E-commerce',
+    description: 'Boutiques en ligne riches en fonctionnalités avec paiement sécurisé.'
   }
 ];
 
@@ -40,9 +40,9 @@ const Services = () => {
     <section id="services" className="py-20 bg-secondary/30">
       <div className="container">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-3xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Nos Services</h2>
           <p className="text-foreground/70 text-lg">
-            Comprehensive web development solutions tailored to meet your business needs and exceed your expectations.
+            Des solutions de développement web complètes adaptées à vos besoins professionnels.
           </p>
         </div>
 

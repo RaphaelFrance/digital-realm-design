@@ -8,30 +8,30 @@ const About = () => {
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">About DigitalRealm</h2>
+            <h2 className="text-3xl font-bold mb-6">À Propos de WebExpert</h2>
             <p className="text-foreground/80 text-lg mb-6">
-              We are a team of passionate web developers and designers dedicated to creating cutting-edge digital experiences that drive business growth.
+              Nous sommes une équipe de développeurs web passionnés dédiés à créer des expériences numériques de pointe qui favorisent la croissance des entreprises.
             </p>
             <p className="text-foreground/80 mb-8">
-              With years of experience in the industry, we've helped businesses of all sizes establish a strong online presence that converts visitors into customers. Our approach combines technical excellence with strategic insight to deliver solutions that exceed expectations.
+              Notre approche combine l'excellence technique et une vision stratégique pour livrer des solutions qui dépassent vos attentes, et cela sans frais initiaux de développement.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-start">
                 <CheckCircle className="text-blue-400 mr-3 mt-1 flex-shrink-0" size={20} />
-                <p>10+ years of experience in web development</p>
+                <p>Plus de 10 ans d'expérience en développement web</p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="text-blue-400 mr-3 mt-1 flex-shrink-0" size={20} />
-                <p>100+ successful projects delivered on time</p>
+                <p>Plus de 100 projets réussis livrés à temps</p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="text-blue-400 mr-3 mt-1 flex-shrink-0" size={20} />
-                <p>Award-winning design and development team</p>
+                <p>Équipe de design et de développement primée</p>
               </div>
               <div className="flex items-start">
                 <CheckCircle className="text-blue-400 mr-3 mt-1 flex-shrink-0" size={20} />
-                <p>Expertise in the latest web technologies</p>
+                <p>Expertise dans les dernières technologies web</p>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const About = () => {
             <div className="relative z-10 rounded-xl overflow-hidden shadow-xl">
               <img 
                 src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&q=80&w=1000" 
-                alt="Our Team" 
+                alt="Notre Équipe" 
                 className="w-full h-auto"
               />
             </div>
